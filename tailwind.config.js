@@ -1,5 +1,10 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}", "./src/App.js"],
+  content: [
+    "./src/**/*.{html,js}",
+    "./src/App.js",
+    "./src/components/**/*.{html,js}",
+    "./src/assets/**/*.{html,js}",
+  ],
   theme: {
     accentColor: ({ theme }) => ({
       ...theme("colors"),
